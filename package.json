@@ -1,12 +1,17 @@
 {
   "name": "test-kms-ethereum",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-kms": "^3.329.0",
-    "aws-sdk": "^2.1374.0",
+    "@aws-sdk/credential-provider-sso": "^3.329.0",
+    "@cloud-cryptographic-wallet/aws-kms-signer": "^0.1.2",
+    "@cloud-cryptographic-wallet/ethers-adapter": "^0.2.2",
     "dotenv": "^16.0.3",
-    "ethers": "^6.3.0"
+    "ethers": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2"
   }
 }
