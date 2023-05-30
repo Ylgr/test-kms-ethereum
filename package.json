@@ -9,9 +9,15 @@
     "@cloud-cryptographic-wallet/aws-kms-signer": "^0.1.2",
     "@cloud-cryptographic-wallet/ethers-adapter": "^0.2.2",
     "dotenv": "^16.0.3",
-    "ethers": "^5.5.4"
+    "ethers": "^5.5.4",
+    "os-utils": "^0.0.14"
   },
   "devDependencies": {
-    "@types/node": "^20.1.2"
+    "@types/node": "^20.1.2",
+    "@types/os-utils": "^0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
   }
 }
